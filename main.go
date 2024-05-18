@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/Mydao57/budget-api/initializers"
 	"github.com/Mydao57/budget-api/routes"
@@ -9,9 +10,9 @@ import (
 )
 
 func init() {
-	initializers.LoadEnv()
+	// initializers.LoadEnv()
 
-	err := logtofile.NewLogger("./logs")
+	err := logtofile.NewLogger(os.Getenv("LOG_DIR"))
 	if err != nil {
 		log.Fatalf("Error creating log file: %v", err)
 	}
