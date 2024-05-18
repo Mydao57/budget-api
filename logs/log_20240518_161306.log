@@ -1,0 +1,27 @@
+[2024-05-18 16:13:06] [INFO] Connected to database
+[2024-05-18 16:13:06] [INFO] Application started successfully
+[2024-05-18 16:13:06] [INFO] Setting up routes
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget (POST)
+[2024-05-18 16:13:06] [INFO] Route loaded: /expense (POST)
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget (GET)
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget/:id (GET)
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget/:id/remaining (GET)
+[2024-05-18 16:13:06] [INFO] Route loaded: /expense (GET)
+[2024-05-18 16:13:06] [INFO] Route loaded: /expense/:id (GET)
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget/:id (PUT)
+[2024-05-18 16:13:06] [INFO] Route loaded: /expense/:id (PUT)
+[2024-05-18 16:13:06] [INFO] Route loaded: /budget/:id (DELETE)
+[2024-05-18 16:13:06] [INFO] Route loaded: /expense/:id (DELETE)
+[2024-05-18 16:13:30] [ERROR] Error while fetching budget
+[2024-05-18 16:13:32] [INFO] Budget deleted successfully
+[2024-05-18 16:13:34] [INFO] Budget deleted successfully
+[2024-05-18 16:13:36] [INFO] Budget deleted successfully
+[2024-05-18 16:13:39] [INFO] Budget deleted successfully
+[2024-05-18 16:13:43] [INFO] Budget deleted successfully
+[2024-05-18 16:13:49] [ERROR] Error while fetching budget
+[2024-05-18 16:13:55] [INFO] Budgets fetched successfully
+[2024-05-18 16:13:59] [ERROR] Error while fetching expense
+[2024-05-18 16:14:03] [INFO] Expsenses fetched successfully
+[2024-05-18 16:14:39] [INFO] Budget created successfully
+[2024-05-18 16:14:45] [INFO] Expenses created successfully
+[2024-05-18 16:15:01] [INFO] Budgets fetched successfully

@@ -1,0 +1,13 @@
+[2024-05-18 16:07:55] [INFO] Connected to database
+[2024-05-18 16:07:55] [INFO] Application started successfully
+[2024-05-18 16:07:55] [INFO] Setting up routes
+[2024-05-18 16:07:55] [INFO] Route loaded: /budget (POST)
+[2024-05-18 16:07:55] [INFO] Route loaded: /expense (POST)
+[2024-05-18 16:07:55] [INFO] Route loaded: /budget (GET)
+[2024-05-18 16:07:55] [INFO] Route loaded: /budget/:id (GET)
+[2024-05-18 16:07:55] [INFO] Route loaded: /expense (GET)
+[2024-05-18 16:07:55] [INFO] Route loaded: /expense/:id (GET)
+[2024-05-18 16:07:55] [INFO] Route loaded: /budget/:id (PUT)
+[2024-05-18 16:07:55] [INFO] Route loaded: /expense/:id (PUT)
+[2024-05-18 16:07:55] [INFO] Route loaded: /budget/:id (DELETE)
+[2024-05-18 16:07:55] [INFO] Route loaded: /expense/:id (DELETE)
