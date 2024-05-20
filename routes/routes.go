@@ -10,7 +10,8 @@ import (
 func SetupRoutes() {
 	router := gin.Default()
 
-	router.Use(cors.Default())
+	config := cors.DefaultConfig()
+	config.AllowOrigins = []string{"*"}
 
 	logtofile.INFO("Setting up routes")
 
