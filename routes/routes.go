@@ -3,11 +3,14 @@ package routes
 import (
 	"github.com/Mydao57/budget-api/controllers"
 	"github.com/Mydao57/logtofile"
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
 func SetupRoutes() {
 	router := gin.Default()
+
+	router.Use(cors.Default())
 
 	logtofile.INFO("Setting up routes")
 
